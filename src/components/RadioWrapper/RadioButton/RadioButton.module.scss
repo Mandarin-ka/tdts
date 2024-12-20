@@ -1,0 +1,22 @@
+.label {
+  font-size: 18px;
+  color: #000000bb;
+}
+
+.button {
+  min-width: 15px;
+  height: 15px;
+  margin: 0 0 0 10px;
+}
+
+.wrapper {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+
+  @media screen and (max-width: 600px) {
+    width: 95px;
+  }
+}

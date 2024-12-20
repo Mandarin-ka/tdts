@@ -1,0 +1,13 @@
+.input {
+  font-size: 20px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  max-width: 20%;
+  outline: 0;
+
+  @media screen and (max-width: 540px) {
+    font-size: 16px;
+  }
+}
